@@ -1,4 +1,4 @@
 ---
-- src: geerlingguy.packer_rhel
-- src: geerlingguy.packer-debian
-- src: geerlingguy.nfs
+- src: box.packer_rhel
+- src: box.packer-debian
+- src: box.nfs

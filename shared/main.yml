@@ -13,12 +13,12 @@
         - ansible_distribution_major_version | int == 6
 
   roles:
-    - role: geerlingguy.nfs
+    - role: box.nfs
 
-    - role: geerlingguy.packer_rhel
+    - role: box.packer_rhel
       when: ansible_os_family == 'RedHat'
 
-    - role: geerlingguy.packer-debian
+    - role: box.packer-debian
       when: ansible_os_family == 'Debian'
 
   tasks:

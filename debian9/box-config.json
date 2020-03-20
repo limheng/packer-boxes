@@ -88,7 +88,7 @@
       },
       {
         "type": "vagrant-cloud",
-        "box_tag": "geerlingguy/debian9",
+        "box_tag": "box/debian9",
         "version": "{{user `version`}}"
       }
     ]

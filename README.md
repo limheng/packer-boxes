@@ -1,21 +1,21 @@
 # Jeff Geerling's Vagrant Box Packer Builds
 
-This project contains the Packer build configurations for all of Jeff Geerling's (geerlingguy's) Vagrant Boxes. Each box builds a minimal base box for use with VirtualBox. Available boxes include:
+This project contains the Packer build configurations for all of Jeff Geerling's (box's) Vagrant Boxes. Each box builds a minimal base box for use with VirtualBox. Available boxes include:
 
-  - [geerlingguy/ubuntu1804](https://app.vagrantup.com/geerlingguy/boxes/ubuntu1804) - [`ubuntu1804` directory](ubuntu1804/)
-  - [geerlingguy/ubuntu1604](https://app.vagrantup.com/geerlingguy/boxes/ubuntu1604) - [`ubuntu1604` directory](ubuntu1604/)
-  - [geerlingguy/centos8](https://app.vagrantup.com/geerlingguy/boxes/centos8) - [`centos8` directory](centos8/)
-  - [geerlingguy/centos7](https://app.vagrantup.com/geerlingguy/boxes/centos7) - [`centos7` directory](centos7/)
-  - [geerlingguy/centos6](https://app.vagrantup.com/geerlingguy/boxes/centos6) - [`centos6` directory](centos6/)
-  - [geerlingguy/debian10](https://app.vagrantup.com/geerlingguy/boxes/debian10) - [`debian10` directory](debian10/)
-  - [geerlingguy/debian9](https://app.vagrantup.com/geerlingguy/boxes/debian9) - [`debian9` directory](debian9/)
-  - [geerlingguy/debian8](https://app.vagrantup.com/geerlingguy/boxes/debian8) - [`debian8` directory](debian8/)
+  - [box/ubuntu1804](https://app.vagrantup.com/box/boxes/ubuntu1804) - [`ubuntu1804` directory](ubuntu1804/)
+  - [box/ubuntu1604](https://app.vagrantup.com/box/boxes/ubuntu1604) - [`ubuntu1604` directory](ubuntu1604/)
+  - [box/centos8](https://app.vagrantup.com/box/boxes/centos8) - [`centos8` directory](centos8/)
+  - [box/centos7](https://app.vagrantup.com/box/boxes/centos7) - [`centos7` directory](centos7/)
+  - [box/centos6](https://app.vagrantup.com/box/boxes/centos6) - [`centos6` directory](centos6/)
+  - [box/debian10](https://app.vagrantup.com/box/boxes/debian10) - [`debian10` directory](debian10/)
+  - [box/debian9](https://app.vagrantup.com/box/boxes/debian9) - [`debian9` directory](debian9/)
+  - [box/debian8](https://app.vagrantup.com/box/boxes/debian8) - [`debian8` directory](debian8/)
 
 All of these boxes are available as public, free Vagrant boxes and can be used with the command:
 
-    vagrant init geerlingguy/[box name here]
+    vagrant init box/[box name here]
 
-You can also fork this repository and customize a build configuration with your own Ansible roles and playbooks to build a fully custom Vagrant box using Packer. For one such example, see the [Drupal VM Packer Build](https://github.com/geerlingguy/packer-drupal-vm).
+You can also fork this repository and customize a build configuration with your own Ansible roles and playbooks to build a fully custom Vagrant box using Packer. For one such example, see the [Drupal VM Packer Build](https://github.com/box/packer-drupal-vm).
 
 ## Requirements
 
